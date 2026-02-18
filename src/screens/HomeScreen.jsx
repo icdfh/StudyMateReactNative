@@ -22,7 +22,7 @@ export default function HomeScreen({navigation}){
                 <Card 
                 title={item.title}
                 subtitle={item.subtitle}
-                onPress={() => navigation.navigate("Detail", {lesson:item})}
+                onPress={() => navigation.navigate("Details", {lesson:item})}
                 />
              )}
              >
