@@ -15,7 +15,7 @@ export default function DetailsScreen({route, navigation}){
             </Text>
 
             <Pressable 
-            style = {detailsStyles}
+            style = {detailsStyles.button}
             onPress={() => navigation.goBack()}>
                 <Text style = {detailsStyles.buttonText}>
                     ⬅
