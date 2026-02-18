@@ -1,15 +1,15 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import RootTabs from "./src/navigation/RootTabs";
-import { FavoritesProvider } from "./src/context/FavouritesContext";
+import { FavouritesProvider } from "./src/context/FavouritesContext";
 
 export default function App(){
   return(
-    <FavoritesProvider>
+    <FavouritesProvider>
       <NavigationContainer>
         <RootTabs/>
       </NavigationContainer>
-    </FavoritesProvider>
+    </FavouritesProvider>
 
   )
 }
